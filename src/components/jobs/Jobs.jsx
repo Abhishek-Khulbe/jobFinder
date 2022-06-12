@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SingleJob from "./../SingleJob/SingleJob";
-import jobs from "./jobs.css";
+import "./jobs.css";
 
 export default function Jobs() {
   const [jobs, setJobs] = useState(null);
